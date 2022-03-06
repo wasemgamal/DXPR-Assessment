@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #dddddd;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.card{
+    margin-block-end: 30px;
+    border-radius: 10px;
+}
+
+.card .card-body .logo-container{
+    width: 40px;
+    overflow: hidden;
+}
+.card .card-body .brand-name{
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.card .card-body .time{
+    font-size: .8em;
+    font-weight: 400;
+}
+.card .card-body .btn-warning{
+    background-color: #fce8bd;
+    border:0;
+    color:#ffa033;
+    font-weight: bold;
+    font-size: .7rem;
+}
+.card .card-title{
+    margin-block: 40px;
+    font-weight: bolder;
+    color: #333333;
+    font-size: 2rem;
+}
+.card .progress{
+    height: .7rem;
+}
+.card .applied{
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-weight: bold;
+    color: #333333;
+    font-size: .8rem;
+}
+.card .applied .total-capacity{
+    color: #aaa;
+}
+
+.loading{
+    animation: pulse 1s ease-in-out alternate infinite;
+    margin: 20px 0;
+    display: none;
+}
+
+@keyframes pulse{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(2);
+    }
+}
